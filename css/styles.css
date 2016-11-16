@@ -1,0 +1,390 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+header {
+  height: 200px;
+  background-color: orange;
+  margin-top: -20px;
+  width: 100%;
+
+}
+
+header h1 {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.map {
+  position: relative;
+  z-index: -1;
+}
+
+.map img {
+  width: 100%;
+  position: relative;
+}
+
+#northAmericaPin {
+  position: absolute;
+  bottom: 395px;
+  left: 370px;
+  z-index: 2;
+}
+
+
+#northAmericaPin:hover + .northAmericaPic {
+  display:block;
+}
+
+.northAmericaPic {
+  position: absolute;
+  height: 500px;
+  width: 250px;
+  z-index: 3;
+  display: none;
+  bottom: 520px;
+  left: 180px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.northAmericaPic img {
+  display: block;
+  margin: auto;
+  margin-top: 13px;
+}
+
+/*Middle East*/
+
+#middleEastPin {
+  position: absolute;
+  top: 800px;
+  left: 1200px;
+  z-index: 2;
+}
+
+
+#middleEastPin:hover + .middleEastPic {
+  display:block;
+}
+
+.middleEastPic {
+  position: absolute;
+  height: 500px;
+  width: 250px;
+  z-index: 3;
+  display: none;
+  top: 300px;
+  left: 1000px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.middleEastPic img {
+  display: block;
+  margin: auto;
+  margin-top: 13px;
+  width: 200px;
+  height: 200px;
+}
+
+/*Central America*/
+
+#centralAmericaPin {
+  position: absolute;
+  bottom: 270px;
+  left: 425px;
+  z-index: 2;
+}
+
+
+#centralAmericaPin:hover + .centralAmericaPic {
+  display:block;
+}
+
+.centralAmericaPic {
+  position: absolute;
+  height: 500px;
+  width: 250px;
+  z-index: 3;
+  display: none;
+  bottom: 400px;
+  left: 225px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.centralAmericaPic img {
+  display: block;
+  margin: auto;
+  margin-top: 13px;
+  width: 200px;
+  height: 200px;
+}
+/*South America*/
+
+#southAmericaPin {
+  position: absolute;
+  bottom: 150px;
+  left: 593px;
+  z-index: 2;
+}
+
+
+#southAmericaPin:hover + .southAmericaPic {
+  display:block;
+}
+
+.southAmericaPic {
+  position: absolute;
+  height: 500px;
+  width: 250px;
+  z-index: 3;
+  display: none;
+  bottom: 290px;
+  left: 400px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.southAmericaPic img {
+  display: block;
+  margin: auto;
+  margin-top: 13px;
+  width: 200px;
+  height: 200px;
+}
+/*europe*/
+
+#europePin {
+  position: absolute;
+  bottom: 400px;
+  left: 1100px;
+  z-index: 2;
+}
+
+
+#europePin:hover + .europePic {
+  display:block;
+}
+
+.europePic {
+  position: absolute;
+  height: 500px;
+  width: 250px;
+  z-index: 3;
+  display: none;
+  bottom: 520px;
+  left: 900px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.europePic img {
+  display: block;
+  margin: auto;
+  margin-top: 13px;
+  width: 200px;
+  height: 200px;
+}
+/*Antarctica*/
+
+#antarcticaPin {
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  z-index: 2;
+}
+
+
+#antarcticaPin:hover + .antarcticaPic {
+  display:block;
+}
+
+.antarcticaPic {
+  position: absolute;
+  height: 500px;
+  width: 250px;
+  z-index: 3;
+  display: none;
+  top: 63%;
+  left: 43%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.antarcticaPic img {
+  display: block;
+  margin: auto;
+  margin-top: 13px;
+  width: 200px;
+  height: 200px;
+}
+/*Oceania*/
+
+#oceaniaPin {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  z-index: 2;
+}
+
+
+#oceaniaPin:hover + .oceaniaPic {
+  display:block;
+}
+
+.oceaniaPic {
+  position: absolute;
+  height: 500px;
+  width: 250px;
+  z-index: 3;
+  display: none;
+  top: 1%;
+  left: 35%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.oceaniaPic img {
+  display: block;
+  margin: auto;
+  margin-top: 13px;
+  width: 200px;
+  height: 200px;
+}
+/*Asia*/
+
+#asiaPin {
+  position: absolute;
+  top: 80%;
+  left: 78%;
+  z-index: 2;
+}
+
+
+#asiaPin:hover + .asiaPic {
+  display:block;
+}
+
+.asiaPic {
+  position: absolute;
+  height: 500px;
+  width: 250px;
+  z-index: 3;
+  display: none;
+  top: 38%;
+  left: 68%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.asiaPic img {
+  display: block;
+  margin: auto;
+  margin-top: 13px;
+  width: 200px;
+  height: 200px;
+}
+
+/*Aus*/
+
+#ausPin {
+  position: absolute;
+  top: 90%;
+  left: 78%;
+  z-index: 2;
+}
+
+
+#ausPin:hover + .ausPic {
+  display:block;
+}
+
+.ausPic {
+  position: absolute;
+  height: 500px;
+  width: 250px;
+  z-index: 3;
+  display: none;
+  top: 50%;
+  left: 68%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.ausPic img {
+  display: block;
+  margin: auto;
+  margin-top: 13px;
+  width: 200px;
+  height: 200px;
+}
+/*Africa*/
+
+#africaPin {
+  position: absolute;
+  top: 75%;
+  left: 55%;
+  z-index: 2;
+}
+
+
+#africaPin:hover + .africaPic {
+  display:block;
+}
+
+.africaPic {
+  position: absolute;
+  height: 500px;
+  width: 250px;
+  z-index: 3;
+  display: none;
+  top: 33%;
+  left: 45%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.africaPic img {
+  display: block;
+  margin: auto;
+  margin-top: 13px;
+  width: 200px;
+  height: 200px;
+}
